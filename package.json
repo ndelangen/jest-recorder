@@ -1,0 +1,20 @@
+{
+  "name": "jest-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -c .jestrc",
+    "test:watch": "jest -c .jestrc --watch",
+    "test:record": "./.scripts/jest-record.js -c .jestrc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-jest": "^18.0.0",
+    "jest-cli": "^18.0.0",
+    "jest-util": "^18.0.0",
+    "yargs": "^6.5.0"
+  }
+}
