@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-jest": "^18.0.0",
-    "jest-cli": "^18.0.0",
+    "jest-cli": "^19.0.1",
     "jest-util": "^18.0.0",
     "yargs": "^6.5.0"
   }
